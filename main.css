@@ -12,6 +12,8 @@ body{
 }
 
 .container {
+    justify-content: center;
+    display: flex;
     width: 330px;
     height: 700px;
     border-radius: 5px;
