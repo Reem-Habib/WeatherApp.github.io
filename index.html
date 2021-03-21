@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+
+
+    <div class="container">
+
+
+        <!-- FORM  -->
+        <form>
+            <div class="search-bar">
+                <input id="city-input" type="search" placeholder="ENTER CITY">
+                <div class="icon"><img src="search.svg" ></div>
+            </div>
+        </form>
+
+        <!-- CITY & WEATHER -->
+        <h1 id="city">JEDDAH</h1>
+        <div id="date"> Friday 19 March 2021</div>
+        
+
+
+        <!-- TEMPERATURE -->
+        <div class="temp">
+            <div id="current">20<sup>°C</sup></div>
+            
+            <div class="minmax">
+                <div id="min">19<sup>°</sup></div>
+                <hr class="line">
+                <div id="max">20<sup>°</sup></div>
+            </div>
+        
+            
+            <p id="weather">Overcast Clouds</p>
+
+            <img src="http://openweathermap.org/img/wn/03d@2x.png" id="weather-icon" width="150">
+
+        </div>
+
+        <!-- INFO -->
+        <div class="info">
+            
+            <div class="details">
+                <div id="humidity">Humidity| _________________93%</div>
+                <div id="wind">Wind | ____________________2.1 m/s</div>
+                <div id="pressure">Pressure | _________________991 hPa</div>
+            </div>
+
+        </div>
+            
+       
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
